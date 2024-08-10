@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.logo-container {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 80px;
+  margin-top: 60%; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+h2 {
+  color: #003852;
+  margin-bottom: 2rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-button {
+  background-color: #002852;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.login-link {
+  margin-top: 1rem;
+}
+
+.login-link a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.separator {
+  margin: 1rem 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.1rem;
+}
+
+.separator span {
+  background: white;
+  padding: 0 1rem;
+}
+
+.google-login {
+  background-color: #db4437;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  width: 100%;
+}

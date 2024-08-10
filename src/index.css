@@ -1,0 +1,39 @@
+/* Reset básico para remover margens e padding padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Aplicando estilo base ao body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Garantindo que os links não tenham sublinhado por padrão */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Definindo estilo para botões */
+button {
+  cursor: pointer;
+}
+
+/* Definindo estilos para campos de input */
+input {
+  font-family: inherit;
+}
+
+/* Estilo para a div principal que cobre toda a tela */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos adicionais podem ser colocados aqui */
